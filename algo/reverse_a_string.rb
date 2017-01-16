@@ -3,6 +3,7 @@
 # comes with Ruby!
 
 def reverse_a_string(string)
+  return string.reverse 
 
 end
 

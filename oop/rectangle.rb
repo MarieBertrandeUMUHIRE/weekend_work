@@ -4,6 +4,17 @@
 
 
 # Driver code - don't touch anything below this line.
+class Rectangle
+  attr_reader :width, :height
+
+  def initialize (width, height)
+    @width= width
+    @height= height
+  end
+  def area
+    return @width * @height
+  end
+end
 puts "TESTING the Rectange class..."
 puts
 
